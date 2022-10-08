@@ -884,6 +884,7 @@ html{
 
 /* ============ request-section ============== */
 .section-request-inner h1{
+
     font-family:'PT Sans-Regular';
     font-size: 48px;
     line-height: 62px;
@@ -893,6 +894,84 @@ html{
     margin-top: 70px;
 
 }
+
+.statistics-title{
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+
+    margin-top: 70px;
+}
+
+.id-name{
+    display: flex;
+    column-gap: 50px;
+
+    margin-right: 100px;
+}
+.id-name h2{
+    font-family: 'PT Sans-Regular';
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.em-tel-request{
+    display: flex;
+    column-gap: 125px;
+
+    margin-right: 150px;
+}
+.em-tel-request h2{
+    font-family: 'PT Sans-Regular';
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+.text__talk-control{
+    display: flex;
+    column-gap: 115px;
+    
+}
+.text__talk-control h2{
+    font-family: 'PT Sans-Regular';
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+.statistics__main-first{
+    display: flex;
+    align-items: center;
+
+}
+
+.stroke__one-id{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+
+    margin-right: 100px;
+}
+.stroke__one-em{
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+
+    margin-right: 150px;
+}
+.stroke__one-text{
+    display: flex;
+
+    column-gap: 100px;
+}
+
+.btns{
+    display: flex;
+    column-gap: 35px;
+}
+
 /* =========================================== */
 
 
@@ -947,6 +1026,7 @@ html{
 
 
 /* ========== media ========== */
+
 @media ((min-width:768px) and (max-width:1024px)) {
     .container{
         max-width: 900px;
@@ -1497,20 +1577,86 @@ html{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+.section-two{
+    margin-top: 200px;
+}
 
-.section__one-inner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.section-three{
+    height: 1000px;
+    margin-top: 70px;
+}
+
+.section-four{
+    height: auto;
+    margin-top: 900px;
 }
 
 
+.service-one{
+    margin-bottom: 30px;
+}
+.service-one h4{
+    text-align: center;
+    margin:0 0 25px 0;
+
+    font-size: 29px;
+}
+.service-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.service-one p{
+    text-align: left;
+    width: 122px;
+    font-size: 17px;
+
+}
+
+
+.service-two{
+    margin-bottom: 30px;
+}
+.service-two h4{
+    text-align: center;
+    margin:0 0 25px 0;
+
+    font-size: 29px;
+}
+.service-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.service-two p{
+    text-align: left;
+    width: 122px;
+    font-size: 17px;
+
+}
+
+.service-three h4{
+    text-align: center;
+    margin:0 0 25px 0;
+
+    font-size: 29px;
+}
+.service-three{
+    width: 100%;
+    margin: 0 auto;
+}
+.service-three p{
+    text-align: left;
+    width: 122px;
+    font-size: 17px;
+
+}
+
 .text{
-    width: 50%;
+    width: 100%;
+    padding: 0 15px;
 }
 
 .text h1 {
-    text-align: center;
+    text-align: left;
     font-size: 36px;
     letter-spacing: 1.5%;
 }
@@ -1524,10 +1670,9 @@ html{
 }
 
 .btn-request{
-    padding: 11px 30px;
-    background-color: #1D89EF;
-
-    border-radius: 8px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 .btn-request span{
     color: white;
@@ -1537,94 +1682,147 @@ html{
     line-height: 23px;
 }
 
-    .projects{
-        display: block;
-        width: 300px;
-        margin: 0 auto;
-    }
+.projects{
+    display: block;
+    margin: 0 auto;
+}
 
-    .club-online{
-        margin-bottom: 30px;
-    }
+.club-online{
+    margin-bottom: 30px;
+}
 
-    .club-online h3{
-        text-align: left;
+.club-online h3{
+    text-align: left;
 
         
-    }
+}
 
-    .img__one{
-        display: none;
-    }
+.img__one{
+    display: none;
+}
 
-    .system-styding{
-        margin-bottom: 30px;
-    }
-    .urservices-azimut{
-        margin-bottom: 50px;
-    }
+.system-styding{
+    margin-bottom: 30px;
+}
 
+.urservices-azimut{
+    margin-bottom: 50px;
+}
 
+.services{
+    display: block;
+    max-height: 300px;
+}
 
-    .services{
-        display: block;
-        max-height: 300px;
-    }
-
-    .menu-btn {
-        width: 30px;
-        height: 70px;
-        position: relative;
-        z-index:2;
-        overflow: hidden;
-    }
+.menu-btn {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+}
     
-    .line{
-        width: 30px;
-        height: 2px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: rgb(0, 0, 0);
-        transition: all 0.5s;
-    }
+.line{
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
     
-    .line + .line{
-        margin-top: 15px;
-    }
+.line + .line{
+    margin-top: 15px;
+}
     
-    .menu-btn span:nth-of-type(2) {
-        top: calc(50% - 5px);
-    }
-    .menu-btn span:nth-of-type(3) {
-        top: calc(50% + 5px);
-    }
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+}
 
-    .nav{
-        /* display: none; */
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 360px;
-        height: 100%;
-        padding: 15px;
-        background: #015cb2;
-        transform: translateX(100%);
-        transition: transform 0.5s;     
-    }
+.nav{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 100%;
+    padding: 15px;
+    background: #015cb2;
+    transform: translateX(100%);
+    transition: transform 0.5s;     
+}
     
-    .nav.active {
-        transform: translateX(0);   
-    }    
+.nav.active {
+    transform: translateX(0);   
+}    
 
-    .menu-list{
-        display: none;
-    }
+.menu-list{
+    display: none;
+}
 
-    .registration{
-        display: none;
-    }
+.registration{
+    display: none;
+}
+
+.coordinates{
+    display: block;
+}
+
+.police__confid{
+    display: block;
+    margin-bottom: 90px;
+}
+
+
+
+
+.footer__inner{
+    display: block;
+}
+.footer__logo{
+    width: 100%;
+    text-align: center;
+}
+.footer__navigation{
+    width: 100%;
+    text-align: center;
+}
+.footer__support{
+    width: 100%;
+    text-align: center;
+}
+.footer__social{
+    width: 100%;
+    text-align: center;
+}
+.social-item{
+    margin: 30px auto;
+}
+
+
+
+
+.telephone{
+    max-width: 275px;
+    margin-bottom: 60px;
+}
+.adress{
+    max-width: 275px;
+    margin-bottom: 60px;
+}
+.email{
+    max-width: 275px;
+    margin-bottom: 70px;
+}
+
+.btn-apply{
+    margin-top: 50px;
+}
 }
 
 
