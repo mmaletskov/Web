@@ -1812,7 +1812,7 @@ html{
 }
 }
 
-@media ((min-width:120px) and (max-width:339px)) {
+@media ((min-width:120px) and (max-width:340px)) {
 
     
 .section-one{
@@ -2023,10 +2023,6 @@ html{
     display: block;
     margin-bottom: 90px;
 }
-
-
-
-
 .footer__inner{
     display: block;
 }
